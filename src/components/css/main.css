@@ -1,0 +1,116 @@
+.container {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid var(--black);
+    border-radius: 61px;
+    min-height: 60vh;
+    flex-direction: column;
+    background-color: var(--background-container);
+}
+#header {
+    font-size: 30px;
+    margin: 0 10px 40px 10px;
+}
+#button_box {
+    gap: 30px;
+}
+.button_list {
+    box-shadow: 3px 4px 2px var(--black);
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: var(--button-color);
+    font-weight: 600;
+}
+
+.button_list:hover{
+    background-color: var(--color-btn-hover);
+}
+
+/* ############################################################ */
+/* ######################### calculator.jsx #########################
+/* ############################################################ */
+
+/* In hail.jsx .board and .buttons are too */
+.board {
+    min-width: 300px;
+    min-height: 30vh;
+}
+#calc_board{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#board #screen {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+#screen {
+    min-width: 300px;
+    min-height: 40px;
+    margin-right: 20px;
+    border-radius: 61px;
+    padding: 5px;
+    text-align: right;
+    font-size: 18px;
+    background-color: var(--screen-color);
+}
+#buttons_board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+.buttons{
+    width: calc(25% - 10px);
+    margin: 5px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--button-color);
+    border-radius: 30px;
+}
+
+#exit_button {
+    width: calc(400% - 0px);
+    background-color: #f2835e;
+    font-weight: 600;
+}
+
+
+/* ############################################################ */
+/* ######################### hail.jsx #########################
+/* ############################################################ */
+#hail_board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hail_box {
+    padding: 20px;
+    margin: 10px;
+    font-size: 23px;
+}
+.hail_box input {
+    position: relative;
+    top: 2px;
+    width: calc(75% - 30px);
+    border: none;
+    border-radius: 61px;
+    padding: 3px;
+    font-size: 20px;
+    outline: none;
+}
+#return_to_main_side{
+    width: 100px;
+}
+
+
+
+
+
