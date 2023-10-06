@@ -54,7 +54,7 @@ export default function Calc() {
                     <button className="buttons" onClick={() => handleButtonClick("=")}>=</button>
                     <button className="buttons" onClick={() => handleButtonClick("+")}>+</button>
                     <button className="buttons" onClick={() => handleButtonClick(".")}>.</button>
-                    <Link to="/"><button class="buttons" id="exit_button">Powrót</button></Link> {/* Return to main page (main.jsx)*/}
+                    <Link to="/"><button className="buttons" id="exit_button">Powrót</button></Link> {/* Return to main page (main.jsx)*/}
                 </div>
             </div>
         </div>
