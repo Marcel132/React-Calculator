@@ -46,8 +46,8 @@ export default function Hail() {
 
   return (
     <div className="container">
-      <div class="board" id="hail_board">
-        <div class="hail_box flex" id="degrees">
+      <div className="board" id="hail_board">
+        <div className="hail_box flex" id="degrees">
           <label>Stopnie:</label>
           <input 
             type="number"
@@ -55,7 +55,7 @@ export default function Hail() {
             onChange={handleDegreesChange} 
           /> 
         </div>
-        <div class="hail_box flex" id="radians">
+        <div className="hail_box flex" id="radians">
           <label>Radiany:</label>
           <input
             type="number"
@@ -63,7 +63,7 @@ export default function Hail() {
             onChange={handleRadiansChange}
           />
         </div>
-        <div class="hail_box flex" id="gradians">
+        <div className="hail_box flex" id="gradians">
           <label>Grady:</label>
           <input
             type="number"
@@ -72,7 +72,7 @@ export default function Hail() {
           />
         </div>
         <div>
-            <Link to="/"><button class="buttons" id="return_to_main_side">Powrót</button></Link> {/* Return to main page (main.jsx)*/}
+            <Link to="/"><button className="buttons" id="return_to_main_side">Powrót</button></Link> {/* Return to main page (main.jsx)*/}
         </div>
       </div>
     </div>
